@@ -39,5 +39,16 @@ python3 test_gin.py
 ```
 
 ## Citation
-Xi Wu, Zhenwei Shi and Zhengxia Zou. A Geographic Information-driven Method and A New Large Scale Dataset for Remote Sensing Cloud/Snow Detection. ISPRS Journal of Photogrammetry and Remote Sensing.
-
+```
+@article{WU202187,
+title = {A geographic information-driven method and a new large scale dataset for remote sensing cloud/snow detection},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {174},
+pages = {87-104},
+year = {2021},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2021.01.023},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271621000290},
+author = {Xi Wu and Zhenwei Shi and Zhengxia Zou},
+}
+```
