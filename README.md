@@ -3,7 +3,7 @@ Code and Dataset information on the paper "A Geographic Information-driven Metho
 
 ## Overview
 In this paper, a novel deep learning based method is proposed for cloud and snow detection. The method is called as Geographic Information-driven Neural Networks (GeoInfoNet). Different from the previous methods that simply focus on using image data (band reflectance) while ignoring geographic information, in the method, a ``geographic information encoder'' is designed, which encodes the altitude, latitude, and longitude of an image into a set of 2D maps. These maps are then integrated pixel-wisely to the detection networks and then train the whole detection model in an end-to-end fashion. It can be observed that the consistent improvement of the cloud and snow detection accuracy with the integration of the auxiliary information. The method outperforms other state of the art cloud and snow detection methods with a large margin. In addition to the new detection framework, a large dataset is also built for cloud and snow detection, which consists of 4,168 images of the Gaofen-1 satellite and is over 20 times larger than other datasets of this field. More importantly, the dataset contains the corresponding geographic information, including the longitude, latitude, and the high-resolution altitude map of each image.  
-![](https://picture18810693345.oss-cn-beijing.aliyuncs.com/img/algorithm_flow.png)  
+![](algorithm_flow.png)  
 Fig. Overview of the proposed method GeoInfoNet.  
 
 ## Dataset Access
