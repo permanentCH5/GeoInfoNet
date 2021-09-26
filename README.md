@@ -8,7 +8,6 @@ Fig. Overview of the proposed method GeoInfoNet.
 
 ## Dataset Access
 Levir_CS(34.42G with 7z format) is available in BaiduDisk: [BaiduDisk](https://pan.baidu.com/s/1AMf9_7RYZyGHDTQcGfFLHA) (extracting code：bf1v)  
-It is also available in Dropbox: [Dropbox](https://www.dropbox.com/sh/tauqvwnejlygvi0/AAA2_3uQv0AKTJ59nNviKCTRa?dl=0)    
 Levir_CS(5182.9G) full resolution is also available in BaiduDisk: [BaiduDisk](https://pan.baidu.com/s/1YDgwGJ9ZTVvDNq-iEnh5ZA) (extracting code：2zyi)  
 
 ## Requirements
@@ -24,7 +23,7 @@ git clone https://github.com/permanentCH5/GeoInfoNet
 cd GeoInfoNet
 ```
 2.Download the proposed dataset Levir_CS and unzip it.  
-3.Prepare the models. They are available on BaiduDisk:[BaiduDisk](https://pan.baidu.com/s/16C1L3CuqcP0rG0WbXU4qYA ) (extracting code: 30ue) or Dropbox:[Dropbox](https://www.dropbox.com/sh/6e1ojw5apxbzmao/AAAQKsyRzB0bD5JNLqV81093a?dl=0). We recommend you to put these models in the folder 'models'.  
+3.Prepare the models. They are available on BaiduDisk:[BaiduDisk](https://pan.baidu.com/s/16C1L3CuqcP0rG0WbXU4qYA ) (extracting code: 30ue). We recommend you to put these models in the folder 'models'.  
 For training, the pre-trained model "densenet169.pth" is recommended to use. It is the same with the model in [Pytorch](https://pytorch.org/vision/stable/_modules/torchvision/models/densenet.html#densenet169).  
 For testing, the model "gin.pth" can be used in cloud and snow detection.  
 4.Before training the model, please modify the contents in "train_levir_cloud_snow_dataset_version3_withdem.txt" in the folder "train" by replacing "/YOUR_DATASET_PATH/" to the real absolute path. Then run the following code to start training the model.
